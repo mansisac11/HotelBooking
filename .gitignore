@@ -1,0 +1,23 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+# Raw or derived datasets: publish only after checking permissions
+data/*
+!data/README.md
+# Generated model binaries
+models/*
+!models/README.md
+*.pkl
+*.pickle
+*.joblib
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
